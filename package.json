@@ -1,0 +1,30 @@
+{
+  "name": "cypress-ebac-exercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --browser edge",
+    "cy.open": "npx cypress open"
+  },
+  "cy:report": "cypress run --record --key d1386169-4e70-4373-86c2-d02ab61b3db8"
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurisQA/cypress-ebac-exercicio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maurisQA/cypress-ebac-exercicio/issues"
+  },
+  "homepage": "https://github.com/maurisQA/cypress-ebac-exercicio#readme",
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
