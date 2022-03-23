@@ -1,1 +1,1 @@
-# exercicio-e2e.spec.js.
+# cypress-ebac-exercicio
